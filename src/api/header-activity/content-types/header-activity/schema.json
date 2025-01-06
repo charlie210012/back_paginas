@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "header_activities",
+  "info": {
+    "singularName": "header-activity",
+    "pluralName": "header-activities",
+    "displayName": "Encabezado de actividades"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "descripcion": {
+      "type": "text"
+    }
+  }
+}

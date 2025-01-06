@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "benefactors",
+  "info": {
+    "singularName": "benefactor",
+    "pluralName": "benefactors",
+    "displayName": "Benefactores",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "descripcion": {
+      "type": "text"
+    },
+    "imagen": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "instagram": {
+      "type": "text"
+    },
+    "facebook": {
+      "type": "text"
+    },
+    "x": {
+      "type": "text"
+    }
+  }
+}
